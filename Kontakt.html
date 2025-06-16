@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navigation (Flexbox) -->
+<nav class="mainnav">
+    <a href="index.html" target="_blank">Startseite</a>
+    <a href="kontakt.html" target="_blank">Kontakt</a>
+    <a href="artikel.html" target="_blank">Artikel</a>
+    <a href="Impressum.html" target="_blank" >Impressum</a>
+</nav>
+
+<main>
+    <section class="content">
+        <h1>Kontaktformular</h1>
+        <form class="kontaktformular" method="post">
+            <label for="k-name">Name:</label>
+            <input type="text" id="k-name" name="k-name" placeholder="Dein Name" required>
+
+            <label for="k-email">E-Mail:</label>
+            <input type="email" id="k-email" name="k-email" placeholder="Deine E-Mail" required>
+
+            <label for="k-nachricht">Nachricht:</label>
+            <textarea id="k-nachricht" name="k-nachricht" placeholder="Deine Nachricht" required></textarea>
+
+            <input type="submit" value="Absenden">
+        </form>
+    </section>
+</main>
+
+</body>
+</html>
